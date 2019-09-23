@@ -1,0 +1,1797 @@
+{
+    "catalogItems": [
+    {
+        "displayName": "Media Backbone Hive",
+        "description": "Media Backbone Hive helps you engage audiences across multiple platforms with unprecedented speed and agility. Based on a powerful, freely scalable unified content platform, it can be deployed on-premise, in the cloud or a combination of the two.",
+        "version": "v1.0.0",
+        "category": "Production Asset Management",
+        "manufacturer": {
+            "name": "Sony"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "https://hive-elb-1100880712.eu-central-1.elb.amazonaws.com:9125/login.aspx",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Hive.png",
+        "imageUris": [],
+        "tags": [
+            "PAM",
+            "Feed Ingest",
+            "Proxy Editor",
+            "Craft Editor"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Live Video Cloud",
+        "description": "Acquire unlimited concurrent live feeds from professional cameras, encoders, mobiles, drones, and online sources.Curate and route live signals within a continuous playback multi-view to unlimited outputs and allocate content wherever you need it to be.Distribute live signals simultaneously to unlimited destinations online and to traditional broadcast infrastructure.",
+        "version": "v1.0.0",
+        "category": "Virtual  Stream Routing",
+        "manufacturer": {
+            "name": "Make.TV"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "https://www.livevideocloud.com/dashboard",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/MakeTV.jpg",
+        "imageUris": [],
+        "tags": [
+            "Ingest/Contribution",
+            "Camera Ingest",
+            "Stream Ingest",
+            "Virtual Router"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "T21 Encoder",
+        "description": "The Encoder streams high quality, low bit rate AVC 1080P video and AAC audio. Designed for IP network contribution and streaming media distribution over the internet, the Encoder is ideal for broadcast news gathering, sports, corporate, medical, house of worship and broadcast distribution applications.",
+        "version": "v1.0.0",
+        "category": "Streaming",
+        "manufacturer": {
+            "name": "T21"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/T21.png",
+        "imageUris": [],
+        "tags": [
+            "Ingest/Contribution",
+            "Camera Ingest",
+            "Stream Ingest"
+        ],
+        "appLinks" : [
+            {
+            "label" : "Encoder Settings",
+            "type" : "ui",
+            "uri": "http://oge1.t-21.biz/"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "Qvest.Cloud Filetransfer Service",
+        "description": "Qvest.Cloud Filetransfer Service",
+        "version": "v1.0.0",
+        "category": "Filetransfer",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Qvest.Cloud.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "DiSA",
+        "description": "The DiSA broadcast automation is an integrated solution for broadcasters. Providing an entirely digital workflow from ingest to playout, it enables you to optimize your processes. The network based scheduling application enables highly efficient control of several playout servers with different playlists as well as ingest and transcoding servers.",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/disa_logo_400x400px.png",
+        "imageUris": [],
+        "tags": [
+            "Distribution",
+            "Playout Automation",
+            "Send to Playout"
+        ],
+        "appLinks" : [
+            {
+            "label" : "AssetUploader",
+            "type" : "link",
+            "uri": "http://34.246.167.69/AssetUploader/Login"
+            },
+            {
+            "label" : "DisaDashboard Logging",
+            "type" : "log",
+            "uri": "http://kibana.hms.hms-dev.cloud/app/kibana#/dashboard/00fc5470-a491-11e8-a363-b96f7e6943d2"
+            },
+            {
+            "label" : "DISA System Metrics",
+            "type" : "metric",
+            "uri": "http://grafana.hms.hms-dev.cloud/d/HRHWxg2iz/ec2_metrics"
+            },
+            {
+            "label" : "ShowBuilder",
+            "type" : "ui",
+            "uri": "http://34.246.167.69/ShowBuilder"
+            },
+            {
+            "label" : "Ticket Tracker",
+            "type" : "link",
+            "uri": "http://jira.hms-dev.com"
+            },
+            {
+            "label" : "Documentation",
+            "type" : "doc",
+            "uri": "http://wiki.hms-dev.com"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "OTT Flow",
+        "description": "Brightcove Video Cloud simplifies the delivery of video to every destination and device with the most complete video tool set available. You’ll launch faster, deliver faster experiences, and scale instantly.",
+        "version": "v1.0.0",
+        "category": "OTT Flow",
+        "manufacturer": {
+            "name": "Accedo & Brightcove"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "https://preview-players.brightcove.net/v2/accounts/5809027303001/players/B1or8lfE7/preview/embeds/default/master/index.html",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Brightcove.png",
+        "imageUris": [],
+        "tags": [
+            "Distribution",
+            "OTT Online Video Platform",
+            "Send to OTT"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "IDOL",
+        "description": "IDOL uses Artificial Intelligence to provide text analytics, speech analytics and video analytics on a wildly diverse set of file formats across a comprehensive range of data repositories.",
+        "version": "v1.0.0",
+        "category": "AI Metadata Extraction",
+        "manufacturer": {
+            "name": "Micro Focus"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "http://18.184.17.228:14000/?action=admin",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/IDOL.jpg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Video Indexer",
+        "description": "Video Indexer is a cloud application built using Azure Media Analytics, Cognitive Services (such as the Face API, Microsoft Translator, the Computer Vision API, and Custom Speech Service), and Azure Search. It enables you to extract insights from your videos using artificial intelligence technologies.",
+        "version": "v1.0.0",
+        "category": "AI Metadata Extraction",
+        "manufacturer": {
+            "name": "Microsoft Azure"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "https://www.videoindexer.ai/",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/VideoIndexer.jpg",
+        "imageUris": [],
+        "tags": [
+            "Processing",
+            "Metadata Extraction",
+            "Metadata Enrichment"
+        ],
+        "appLinks" : [
+            {
+            "label" : "Authorization API",
+            "type" : "API",
+            "uri": "https://api-portal.videoindexer.ai/docs/services/authorization/operations/Get-Account-Access-Token"
+            },
+            {
+            "label" : "Operation API",
+            "type" : "API",
+            "uri": "https://api-portal.videoindexer.ai/docs/services/operations/operations/Create-Brand"
+            },
+            {
+            "label" : "Video Indexer UI",
+            "type" : "UI",
+            "uri": "https://www.videoindexer.ai/"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "Flip",
+        "description": "Flip is a SaaS platform with the best video encoding quality for variety of formats - from mobile to broadcast. Extensive set of customizable encoding profiles built to ensure the output matches industry standards.",
+        "version": "v1.0.0",
+        "category": "Transcoding",
+        "manufacturer": {
+            "name": "Telestream Cloud"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "https://cloud.telestream.net",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/flip_telestream.png",
+        "imageUris": [],
+        "tags": [
+            "HiRes Transcoder",
+            "File Import"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "MediaConvert",
+        "description": "AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade features. It allows you to easily create video-on-demand (VOD) content for broadcast and multiscreen delivery at scale. The service combines advanced video and audio capabilities with a simple web services interface and pay-as-you-go pricing.",
+        "version": "v1.0.0",
+        "category": "Transcoding",
+        "manufacturer": {
+            "name": "AWS Elemental"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/MediaConvert.jpg",
+        "imageUris": [],
+        "tags": [
+            "Proxy Transcoding",
+            "OTT Transcoder & Packager",
+            "File Import",
+            "Distribution"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Bitmovin",
+        "description": "Bitmovin Video Encoding is the most flexible encoding that does not lock you into a specific hardware or cloud.",
+        "version": "v1.0.0",
+        "category": "Transcoding",
+        "manufacturer": {
+            "name": "Bitmovin"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Bitmovin.jpg",
+        "imageUris": [],
+        "tags": [
+            "Processing",
+            "Transcoder",
+            "External Transcoding"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Zephyr Transcode",
+        "description": "Concurrent Zephyr Transcode software provides unsurpassed video quality through shared computing resources for processing of audio and video content. Supporting any input and output, Concurrent’s transcode solution enables service providers, broadcasters, and content owners to support live and file workflows over common infrastructure while supporting configurable quality levels.",
+        "version": "v1.0.0",
+        "category": "Transcoding",
+        "manufacturer": {
+            "name": "Concurrent"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/concurrent_Zephyr+Transcode.png",
+        "imageUris": [],
+        "tags": [
+            "Processing",
+            "Transcoder",
+            "File Import",
+            "Send to Playout",
+            "Distribution"
+        ],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Qvest.Cloud Metadata Service",
+        "description": "Qvest.Cloud Metadata Service",
+        "version": "v1.0.0",
+        "category": "File Analysis",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Qvest.Cloud.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Social Media",
+        "description": "Social Media",
+        "version": "v1.0.0",
+        "category": "Social Media",
+        "manufacturer": {
+            "name": "Facebook"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/FB.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "File Ingest to Hive",
+        "description": "File Ingest to Hive",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks" : [
+            {
+            "label" : "Flow",
+            "type" : "link",
+            "uri": "http://flow.qmc.hms-dev.cloud/59c14aad96f3431c9af915826219ee5f/"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "AI Analysis with IDOL",
+        "description": "AI Analysis with IDOL",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks" : [
+            {
+            "label" : "Flow Editor",
+            "type" : "link",
+            "uri": "http://flow.qmc.hms-dev.cloud/04b1903193eb4187afd4e7992f7fe24e/"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "AI Analysis with Video Indexer",
+        "description": "AI Analysis with Video Indexer",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "File Outgest",
+        "description": "File Outgest",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks" : [
+            {
+            "label" : "Flow",
+            "type" : "link",
+            "uri": "http://flow.qmc.hms-dev.cloud/9d9991606bd5468b941123cfbd37df46/?#flow/7833053b.24784c"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "Publish to OTT Platform",
+        "description": "Publish to OTT Platform",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks" : [
+            {
+            "label" : "flow",
+            "type" : "link",
+            "uri": "http://flow.qmc.hms-dev.cloud/f38c6e513e8841ea92dc46ba8c1b39b3"
+            }
+        ],
+        "extensionData": []
+    },
+    {
+        "displayName": "Publish to Playout",
+        "description": "Publish to Playout",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri" : "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Vidispine Server",
+        "description": "Vidispine Server is an API-based media asset management platform. The feature-rich RESTful API allows you to focus on your application development instead of video technology. Vidispine Server scales with you from prototype to a global enterprise system.",
+        "version": "v1.0.0",
+        "category": "Media Asset Management",
+        "manufacturer": {
+            "name": "Vidispine"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "http://vidixplore.qmc.hms-dev.cloud",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Vidispine.jpg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Qvest.Cloud Transcriber",
+        "description": "",
+        "version": "v1.0.0",
+        "category": "Media Logging",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Qvest.Cloud.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "EditMate",
+        "description": "Use EditMate to collect mobile footage from your customers, employees, and fans. Our editors will cut it into an authentic on-brand video.",
+        "version": "v1.0.0",
+        "category": "Production Asset Management",
+        "manufacturer": {
+            "name": "Arvato Systems"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/EditMate.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "VidiXplore",
+        "description": "VidiXplore",
+        "version": "v1.0.0",
+        "category": "Media Asset Management",
+        "manufacturer": {
+            "name": "Arvato Systems"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "AAF Export",
+        "description": "AAF Export",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Speech to Text",
+        "description": "Speech to Text",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Qvest.Cloud Transcode Service",
+        "description": "Qvest.Cloud Transcode Service",
+        "version": "v1.0.0",
+        "category": "Transcoding",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3.eu-central-1.amazonaws.com/qm-ibc2018-addinfo/Qvest.Cloud.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "Transcode Scaling",
+        "description": "Transcode Scaling",
+        "version": "v1.0.0",
+        "category": "Workflow",
+        "manufacturer": {
+            "name": "Qvest Media"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+    },
+    {
+        "displayName": "AV-Infinity Analyzer",
+        "description": "AV-Infinity Analyzer",
+        "version": "v1.0.0",
+        "category": "Compliance Recording",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Capturebox.web",
+        "description": "Capturebox.web",
+        "version": "v1.0.0",
+        "category": "Compliance Recording",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/hms_capturebox_icon.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Compliance Recording Workflow",
+        "description": "Compliance Recording Workflow",
+        "version": "v1.0.0",
+        "category": "Compliance Recording",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [
+          {
+            "label": "Flow",
+            "type": "web",
+            "uri": "http://flow.qmc.hms-dev.cloud/879d4462f5404c7d87da24f2891cdd6a/"
+          }
+        ],
+        "extensionData": []
+      },
+      {
+        "displayName": "Ingest-API",
+        "description": "Ingest-API",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Asset Uploader",
+        "description": "Asset Uploader",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/hms_assetuploader_icon.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Clipbox.web",
+        "description": "Clipbox.web",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/hms_clipbox_icon.png",
+        "imageUris": [],
+        "tags": [
+          "Playout",
+          "aws",
+          "DVB"
+        ],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Clipbox.web Workflow",
+        "description": "Clipbox.web Workflow",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/node-red-icon.svg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [
+          {
+            "label": "Flow",
+            "type": "web",
+            "uri": "http://flow.qmc.hms-dev.cloud/502b15e7ec27498b85e05b97e1a3309d/"
+          }
+        ],
+        "extensionData": []
+      },
+      {
+        "displayName": "Make.TV",
+        "description": "Make.TV",
+        "version": "v1.0.0",
+        "category": "Live Video Cloud",
+        "manufacturer": {
+            "name": "Make.TV, Inc."
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/MakeTV.jpg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Showbuilder",
+        "description": "Showbuilder",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/hms_showBuilder_icon.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Singular.Live",
+        "description": "Singular.Live",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "Singular.Live"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/singular_live_icon.jpg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Video-API",
+        "description": "Video-API",
+        "version": "v1.0.0",
+        "category": "Playout Automation",
+        "manufacturer": {
+            "name": "HMS media solutions"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "",
+        "iconUri": "",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Wowza",
+        "description": "Wowza",
+        "version": "v1.0.0",
+        "category": "Broadcast Streaming",
+        "manufacturer": {
+            "name": "Wowza Media Systems, LLC"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "http://wowza.hms-dev.cloud/",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/wowza_icon.jpg",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Grafana",
+        "description": "Grafana",
+        "version": "v1.0.0",
+        "category": "",
+        "manufacturer": {
+            "name": "Grafana Labs"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "http://grafana.hms.hms-dev.cloud/",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/grafana.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      },
+      {
+        "displayName": "Kibana",
+        "description": "Kibana",
+        "version": "v1.0.0",
+        "category": "",
+        "manufacturer": {
+            "name": "Elastic"
+        },
+        "enabled": true,
+        "visible": true,
+        "uri": "http://kibana.hms.hms-dev.cloud/",
+        "iconUri": "https://s3-us-west-2.amazonaws.com/qmc-appicons/kibana-logo-color-v-300x274.png",
+        "imageUris": [],
+        "tags": [],
+        "appLinks": [],
+        "extensionData": []
+      }
+    ],
+    "tenants": [],
+    "assignments": [],
+    "featureAppContainer": {
+        "apps": [
+            {
+                "name": "Media Backbone Hive",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Live Video Cloud",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "T21 Encoder",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Qvest.Cloud Filetransfer Service",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 4
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "components",
+                                "data": {
+                                    "displayName": "Components",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "DiSA",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "OTT Flow",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "IDOL",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Video Indexer",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Flip",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "MediaConvert",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Bitmovin",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Zephyr Transcode",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "components",
+                                "data": {
+                                    "displayName": "Components",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Vidispine Server",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Qvest.Cloud Transcriber",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 4
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "components",
+                                "data": {
+                                    "displayName": "Components",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "EditMate",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Qvest.Cloud Transcode Service",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "components",
+                                "data": {
+                                    "displayName": "Components",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 4
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Qvest.Cloud Metadata Service",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Social Media",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "VidiXplore",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview"
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 4
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "components",
+                                "data": {
+                                    "displayName": "Components",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Transcode Scaling",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "AAF Export",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Speech to Text",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "File Ingest to Hive",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "AI Analysis with IDOL",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "AI Analysis with Video Indexer",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "File Outgest",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Publish to OTT Platform",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            },
+            {
+                "name": "Publish to Playout",
+                "instanceIdentifier": null,
+                "featureSet": [
+                    {
+                        "features": [
+                            {
+                                "name": "overview",
+                                "data": {
+                                    "displayName": "Overview",
+                                    "sortIndex": 0
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "logs",
+                                "data": {
+                                    "displayName": "Logs",
+                                    "sortIndex": 3
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "events",
+                                "data": {
+                                    "displayName": "Events",
+                                    "sortIndex": 2
+                                },
+                                "authorize": null
+                            },
+                            {
+                                "name": "automation",
+                                "data": {
+                                    "displayName": "Automation",
+                                    "sortIndex": 1
+                                },
+                                "authorize": null
+                            }
+                        ],
+                        "name": "tabs"
+                    }
+                ]
+            }
+        ]
+    }
+}
