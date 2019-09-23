@@ -6,6 +6,7 @@ import { FlatType } from './enumeration';
 
 export interface ICostKey extends IIdBaseDto {
     year: number;
+    
     from: Date;
     to: Date;
     

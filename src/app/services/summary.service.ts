@@ -8,7 +8,7 @@ import * as JSZip from 'jszip';
 import * as docxtemplater from 'docxtemplater';
 
 import { TenantService } from './tenant.service';
-import { ISummaryEntry, SummaryEntry } from '../models/summary';
+import { ISummaryEntry, SummaryEntry, WaterStatistic } from '../models/summary';
 import { CostKeyService } from './cost-key.service';
 import { FlatService } from './flat.service';
 import { UsageService } from './usage.service';
@@ -39,17 +39,20 @@ export class SummaryService {
 
         const usages = await this._usageService.findUsageByObjectIDAsync(costKeyOjectID);
         
-        const res: Array<ISummaryEntry> = usages.map(u => this._calulateSummary(u));
+        const summaries: Array<ISummaryEntry> = usages.map(u => this._calulateSummary(u));
 
-        const allUpfront = res.reduce((acc, cur) => acc + cur.SummeGezahlt, 0);
-        const total = res.reduce((acc, cur) => acc + cur.SummeGesamt, 0);
-        const diff = res.reduce((acc, cur) => acc + cur.Differenz, 0);
+        const allUpfront = summaries.reduce((acc, cur) => acc + cur.SummeGezahlt, 0);
+        const total = summaries.reduce((acc, cur) => acc + cur.SummeGesamt, 0);
+        const diff = summaries.reduce((acc, cur) => acc + cur.Differenz, 0);
+
+        const statistics = WaterStatistic.calculateStatistics(usages, summaries);
+        summaries.forEach(s => s.waterStatistics = new WaterStatistic(s.usage, s.SummeWasser, statistics.totalWaterPrice, statistics.totalAvaragePrice, 
+            statistics.totalMedianPrice, statistics.avarageDifference, statistics.medianDiffernce));
 
         console.log(`Total: ${total}, Upfront: ${allUpfront}, Diff: ${diff}, Test: ${allUpfront - diff}`);
 
-        
 
-        return res;
+        return summaries;
     }
 
     private _calulateSummary(usage: IUsage): ISummaryEntry {
