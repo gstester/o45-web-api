@@ -8,13 +8,14 @@ import { IFlat, Flat } from '../models/flat.dto';
 
 import { IFlatSchema } from '../schemas/interface/flat.interface';
 import { FlatFactory } from '../factories/flat.factory';
-import { TenantService } from './tenant.service';
+// import { TenantService } from './tenant.service';
 import { ITenant } from '../models/tenant.dto';
+import { TenantRepositoryService } from './tenant-repository.service';
 
 
 @Injectable()
 export class FlatService {
-    constructor(@Inject('FlatModelToken') private readonly _flatModel: Model<IFlatSchema>, private readonly _tenantService: TenantService) { }
+    constructor(@Inject('FlatModelToken') private readonly _flatModel: Model<IFlatSchema>, private readonly _tenantRepository: TenantRepositoryService) { }
 
     public async getAsync(): Promise<Array<IFlat>> {
         const res = await this._flatModel.find().populate('tenants')
@@ -54,7 +55,7 @@ export class FlatService {
 
             const model = new this._flatModel(data);
 
-            const tenantModels = await Promise.all(data.tenants.map(t => this._tenantService.getTenantModelAsync(t.id)));
+            const tenantModels = await Promise.all(data.tenants.map(t => this._tenantRepository.getTenantModelAsync(t.id)));
 
             model.tenants = tenantModels;
 
@@ -85,7 +86,7 @@ export class FlatService {
                 flatInDb[k] = flat[k];
             });
 
-            const tenantModels = await Promise.all(flat.tenants.map(t => this._tenantService.getTenantModelAsync(t.id)));
+            const tenantModels = await Promise.all(flat.tenants.map(t => this._tenantRepository.getTenantModelAsync(t.id)));
 
             flatInDb.tenants = tenantModels;
 
@@ -110,7 +111,7 @@ export class FlatService {
             if (!flatInDb)
                 throw new HttpException(`No flat with id: ${id} found`, HttpStatus.BAD_REQUEST);
 
-            const tenantModel = await this._tenantService.getTenantModelAsync(tenantId);
+            const tenantModel = await this._tenantRepository.getTenantModelAsync(tenantId);
 
             if (!tenantModel)
                 throw new HttpException(`Tenant ${tenantId} not found to add`, HttpStatus.BAD_REQUEST);
@@ -141,7 +142,7 @@ export class FlatService {
             if (!flatInDb)
                 throw new HttpException(`No flat with id: ${id} found`, HttpStatus.BAD_REQUEST);
 
-            const tenantModel = await this._tenantService.getTenantModelAsync(tenantId);
+            const tenantModel = await this._tenantRepository.getTenantModelAsync(tenantId);
 
             if (!tenantModel)
                 throw new HttpException(`Tenant ${tenantId} not found to add`, HttpStatus.BAD_REQUEST);

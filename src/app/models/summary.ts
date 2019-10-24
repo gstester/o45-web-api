@@ -362,12 +362,13 @@ export class SummaryEntry implements ISummaryEntry {
 
                     const result = SummaryEntry.calculateMonthsWithMovedOut(start, end, moveIn, moveOut);
 
-                    months += result;
+
+                    months += t.isChild ? result / 2 : result;
                 }
                 else {
                     const result = SummaryEntry.calculateMonthsWithOutMovedOut(start, end, moveIn);
 
-                    months += result;
+                    months += t.isChild ? result / 2 : result;
                 }
             });
 
@@ -427,13 +428,13 @@ export class SummaryEntry implements ISummaryEntry {
         const duration = moment.duration(end.diff(moveIn));
         const result = Math.ceil(duration.asMonths());
 
-        return 12 - result;
+        return result;
     }
 
     private static _transformPrintables(result: SummaryEntry) {
         result.pHeizungGrundkosten = result.HeizungGrundkosten.toFixed(2);
-        result.pHeizungVerbrauchskosten = result.HeizungGrundkosten.toFixed(2);
-        result.pSummeHeizung = result.HeizungGrundkosten.toFixed(2);
+        result.pHeizungVerbrauchskosten = result.HeizungVerbrauchskosten.toFixed(2);
+        result.pSummeHeizung = result.SummeHeizung.toFixed(2);
 
         result.pWasserGrundkosten = result.WasserGrundkosten.toFixed(2);
         result.pWasserVerbrauchskosten = result.WasserVerbrauchskosten.toFixed(2);

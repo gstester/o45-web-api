@@ -8,7 +8,7 @@ export interface ICostKey extends IIdBaseDto {
     year: number;
     
     from: Date;
-    to: Date;
+    to?: Date;
     
     heatingBasisCostKey: number;
     heatingUsageCostKey: number;
@@ -28,6 +28,8 @@ export class CostKey extends IdBaseDto implements ICostKey {
         this.heatingUsageCostKey = null;
         this.waterBasisCostKey = null;
         this.waterUsageCostKey = null;
+        this.from = null;
+        this.to = null;
     }
 
     @ApiModelProperty({ type: Number, required: true })
@@ -35,7 +37,7 @@ export class CostKey extends IdBaseDto implements ICostKey {
     @ApiModelProperty({ type: Date, required: true })
     from: Date;
     @ApiModelProperty({ type: Date, required: true })
-    to: Date;
+    to?: Date;
     @ApiModelProperty({ type: Number, required: true })
     heatingBasisCostKey: number;
     @ApiModelProperty({ type: Number, required: true })

@@ -37,4 +37,8 @@ export class Usage extends IdBaseDto implements IUsage {
     costKeyId: string;
     @ApiModelProperty({ type: CostKey, required: false })
     costKey: ICostKey;
+    @ApiModelProperty({ type: String, format: 'date-time', example:'2018-11-21',  required: false })
+    from: Date;
+    @ApiModelProperty({ type: String, format: 'date-time', example:'2018-11-21',  required: false })
+    to?: Date;
 }

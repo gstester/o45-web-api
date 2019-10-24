@@ -6,7 +6,7 @@ export interface ICostKeySchema extends Document {
     year: number;
 
     from: Date;
-    to: Date;
+    to?: Date;
 
     heatingBasisCostKey: number;
     heatingUsageCostKey: number;

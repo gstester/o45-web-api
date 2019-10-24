@@ -7,43 +7,37 @@ import { of } from 'rxjs';
 import { ITenant } from '../models/tenant.dto';
 import { ITenantSchema } from '../schemas/interface/tenant.interface';
 import { TenantFactory } from '../factories/tenant.factory';
-
-
-
+import { FlatService } from './flat.service';
+import { TenantRepositoryService } from './tenant-repository.service';
 
 @Injectable()
 export class TenantService {
-    constructor(
-        @Inject('TenantModelToken') private readonly _tenantModel: Model<ITenantSchema>) { }
+    constructor(@Inject('TenantModelToken') private readonly _tenantModel: Model<ITenantSchema>, 
+        private readonly _repository: TenantRepositoryService, private readonly _flatService: FlatService) { }
 
     public async getAsync(): Promise<Array<ITenant>> {
         const res = await this._tenantModel.find()
             .sort('name');
 
-        return of(res.map(t => TenantFactory.create(t))).toPromise();
+        const flats = await this._flatService.getAsync();
+        const tenants = res.map(t => {
+            const tenant = TenantFactory.create(t);
+
+            tenant.flat = flats.find(f => f.tenants.some(t => t.id === tenant.id));
+            tenant.flatName = tenant.flat ? tenant.flat.name : '';
+
+            return tenant;
+        });
+
+        return of(tenants).toPromise();
     }
 
-    public async getTenantModelAsync(id: string) {
-        return await this._getTenantModelAsync(id);
-    }
-
+    
     public async findAsync(id: string): Promise<ITenant> {
-        const res = await this._getTenantModelAsync(id);
+        const res = await this._repository.getTenantModelAsync(id);
 
         return of(TenantFactory.create(res)).toPromise();
     }
-
-    private async _getTenantModelAsync(id: string): Promise<ITenantSchema> {
-        const query = { id: id };
-        const res = await this._tenantModel.findOne(query);
-
-        if (res == null)
-            throw new HttpException(`Tenant with Id: ${id} not found`, HttpStatus.BAD_REQUEST);
-
-        return res;
-    }
-
-
 
     public async createAsync(data: ITenant): Promise<ITenant> {
         this._validateToCreate(data);
